@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/offer.css">
+
+
+        <title>Responsive Website Travel</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">BORA Clean</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Ballina</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Reth nesh</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Shërbimet</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Galeria</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/bg-bora.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <!-- <span class="home__data-subtitle">Discover your place</span> -->
+                        <h1 style="font-size: 44px" class="home__data-title"> <br> Pastërtia jonë, reputacioni juaj<br><b>- Bora Clean</b></h1>
+                         
+                        <!-- <a href="#" class="button">Explore</a> -->
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/capitanoinhome/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/bora_clean_01/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                   
+                    </div>
+
+                    <!-- <div class="home__info">
+                        <div>
+                            <span class="home__info-title">5 best places to visit</span>
+                            <a href="" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/p1.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="">Bora Clean <br>është kompani e pastrimit</h2><br>
+                        <p class="about__description">Bëjm pastrimin e veturave në detaje me pajisje profesionale, nga stafi ynë profesional. <br>
+                            <p class="about__description">Si dhe bëjm pastrimin e divaneve dhe kockave<br>
+                                <p class="about__description">Thirr tani:<br>
+                                    <a style="text-decoration: none;" href="tel:+38344993992"><span style="text-decoration: none; color: black;">+383-44-993-992</span></a>
+                                    <br>
+                                    <a style="text-decoration: none;" href="tel:+38344993992"><span style="text-decoration: none; color: black;">+383-49-293-474</span></a>
+
+                        </p>
+                        <div class="whatsapp-block" style="display: inline;">
+                            <a href="https://wa.me/+38349293474" class="button" style="border-radius: 12px; display: inline-block; padding: 5px; padding: 14px;">
+                              <img src="assets/img/whatsapp.png" style="height: 32px; vertical-align: middle;" alt="">
+                              <p style="display: inline;">Rezervoni terminin tuaj</p>
+                            </a>
+                          </div>
+                          
+                </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/p4.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/p3.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" >
+                <h2 id="discover" class="section" style="text-align: center;">Shërbimet tona</h2>
+                
+                <div class="discover__container container swiper-container">
+                </div>
+                </div>
+                <div class="projcard-container">
+    
+                    <div class="projcard projcard-blue">
+                        <img class="projcard-img2 mobile-img" src="assets/img/stadard.jpeg" />
+
+                      <div class="projcard-innerbox">
+
+                        <img class="projcard-img desktop-img" src="assets/img/stadard.jpeg" />
+                        <div class="projcard-textbox">
+                          <div class="projcard-title">Oferta Standarde <span style="font-size: 14px;"><h2>Qmimi: 50€</h2></span></div>
+                          <div class="projcard-subtitle"></div>
+                          <div class="projcard-bar"></div>
+                          <!-- <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div> -->
+                          <ul style="font-size: 14px;">
+                            <li>
+                                <p>Larja e jashtme e vetures ne detaje.</p>
+                            </li>
+                            <li>
+                                <p>Larja e fellneve ne detaje.</p>
+                            </li>
+                        
+                         
+                            <li>
+                                <p>Pastrimi i enterierit ne detaje.</p>
+                            </li>
+                            <li>
+                                <p>Dizenfektimi me avull.</p>
+                            </li>
+                            <li>
+                                <p>Pastrimi i gepekut ne themel.</p>
+                            </li>
+                            <li>
+                                <p>Pastrimin e tapacirave.</p>
+                            </li>
+                           
+                            <li>
+                                <p>Aromatizimi i vetures nga brendi SONAX.</p>
+                            </li>
+                        </ul>
+
+                          <div class="projcard-tagbox">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="projcard-container">
+                    <div class="projcard projcard-red">
+                        <img class="projcard-img2 mobile-img" src="assets/img/pre.jpeg" />
+
+                      <div class="projcard-innerbox">
+                        <img class="projcard-img" src="assets/img/pre.jpeg" />
+                        <div class="projcard-textbox">
+                          <div class="projcard-title">Oferta Premium<span style="font-size: 14px;"><h2>Qmimi: 70€</h2></span></div>
+                          <div class="projcard-subtitle"></div>
+                          <div class="projcard-bar"></div>
+                          <ul style="font-size: 14px;">
+                            <li>
+                                <p>Larja e jashtme e vetures ne detaje.</p>
+                            </li>
+                            <li>
+                                <p>Larja e fellneve ne detaje.</p>
+                            </li>
+                            <li>
+                                <p>Aplikimi i SONAX Ceramic</p>
+                            </li>
+                            <li>
+                                <p>Larja e motorrit.</p>
+                            </li>
+                            <li>
+                                <p>Restaurimi i të gjitha plastikave nga brendi SONAX.</p>
+                            </li>
+                            <li>
+                                <p>Pastrimi i xhamave nga brendi SONAX.</p>
+                            </li>
+                            <li>
+                                <p>Pastrimi i enterierit ne detaje.</p>
+                            </li>
+                            <li>
+                                <p>Dizenfektimi me avull.</p>
+                            </li>
+                            <li>
+                                <p>Pastrimi i gepekut ne themel.</p>
+                            </li>
+                            <li>
+                                <p>Pastrimin e tapacirave.</p>
+                            </li>
+                            <li>
+                                <p>Shkelqimi i shtrojave te gomes.</p>
+                            </li>
+                            <li>
+                                <p>Aromatizimi i vetures nga brendi SONAX.</p>
+                            </li>
+                        </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">Eksperienca</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <span class="experience__description">Nga viti</span>
+
+                            <h2 class="experience__number">2020</h2>
+                        </div>
+
+                        <div class="experience__data">
+                            <span class="experience__description">Klient të kënaqur</span>
+
+                            <h2 class="experience__number">150+</h2>
+                        </div>
+                    </div>
+
+                    <!-- <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/couche1.jpg" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/couche2.jpg" alt="" class="experience__img-two">
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <!-- <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Find out more with our video of the most beautiful and 
+                        pleasant places for you and your family.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video1.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section> -->
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Galeria</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/clean1.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <!-- <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span> -->
+
+                            <!-- <div class="place__data">
+                                <h3 class="place__title">Bali</h3>
+                                <span class="place__subtitle">Indonesia</span>
+                                <span class="place__price">$2499</span>
+                            </div> -->
+                        </div>
+
+                        <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/clean2.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <!-- <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5,0</span>
+                            </span> -->
+
+                            <!-- <div class="place__data">
+                                <h3 class="place__title">Bora Bora</h3>
+                                <span class="place__subtitle">Polinesia</span>
+                                <span class="place__price">$1599</span>
+                            </div> -->
+                        </div>
+
+                        <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                    </div>
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/clean3.jpeg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <!-- <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,9</span>
+                            </span> -->
+
+                            <!-- <div class="place__data">
+                                <h3 class="place__title">Hawaii</h3>
+                                <span class="place__subtitle">EE.UU</span>
+                                <span class="place__price">$3499</span>
+                            </div> -->
+                        </div>
+
+                        <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                    </div>
+
+                    <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/clean4.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <!-- <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span> -->
+
+                            <!-- <div class="place__data">
+                                <h3 class="place__title">Whitehaven</h3>
+                                <span class="place__subtitle">Australia</span>
+                                <span class="place__price">$2499</span>
+                            </div> -->
+                        </div>
+
+                        <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                    </div>
+
+                    <!--==================== PLACES CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/clean5.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <!-- <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span> -->
+
+                            <!-- <div class="place__data">
+                                <h3 class="place__title">Hvar</h3>
+                                <span class="place__subtitle">Croacia</span>
+                                <span class="place__price">$1999</span>
+                            </div>
+                        </div> -->
+
+                        <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Follow në Instagram</h2>
+                        <a href="https://www.instagram.com/bora_clean_01/">
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <img src="assets/img/instagram.png" style="height: 32px; padding-right: 5px;" alt="" class="">
+                            <h2 class="subscribe__title">bora_clean_01</h2>
+                        </div></a>
+                        
+                        
+    
+                      
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== SPONSORS ====================-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="assets/img/k11.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sox.png" alt="" class="sponsor__img">
+                    </div>
+                    <!-- <div class="sponsor__content">
+                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+                    </div> -->
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <!-- <div class="footer__container container grid">
+                <div class="footer__content grid"> -->
+                    <div class="footer__data">
+                       
+                        <div style="justify-content: center; text-align: center;">
+                            <a href="https://www.facebook.com/capitanoinhome/" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/bora_clean_01/"  class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                        <!-- </div>
+                    </div> -->
+    
+                    <!-- <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                       
+                                <a href="" class="footer__link">About Us</a>
+                           
+                    </div> -->
+    
+                    <!-- <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Plan y Pricing</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div> -->
+    
+                    <!-- <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div> -->
+                </div>
+
+                <div class="">
+                    <p class="" style="text-align: center; justify-content: center; color: gray;">&#169; 2023</p>
+                    <!-- <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div> -->
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
